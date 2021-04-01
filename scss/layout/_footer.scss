@@ -1,0 +1,43 @@
+.text-final {
+    @extend %flexbox;
+    margin: 10px auto;
+    text-align: center;
+
+    p {
+        color: #000;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 60px;
+        padding-left: 200px;
+    }
+
+    a {
+        text-align: right;
+    }
+
+    i {
+        font-size: 30px;
+        color: #555;
+
+        &:hover {
+            color: rgb(255, 171, 16);
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        text-align: left;
+        margin: 5px auto;
+
+        p {
+           font-size: 13px;
+           margin-top: 10px;
+           margin-left: 5px;
+           padding-left: 1px;
+        }
+
+        i {
+            font-size: 25px;
+        }
+        
+    }
+}

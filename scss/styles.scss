@@ -1,0 +1,41 @@
+@import "utilities/variables";
+@import "utilities/extend";
+
+* {
+   @extend %reset; 
+}
+
+body {
+    background: #e7eef3;
+    font-size: 1.3em;
+    color: $colornav;
+
+    @media only screen and (max-width: 400px) {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: auto;
+    margin-top: 100px;
+    color: rgba(61, 61, 61, 0.699);
+
+    &:hover {
+        color: $colorhover;
+    }
+}
+
+h2 {
+    color: $colorh2;
+    padding: 20px;
+    margin: 10px;
+}
+
+@import "layout/navigation";
+@import "layout/services";
+@import "layout/about us";
+@import "layout/contact";
+@import "layout/footer";
+

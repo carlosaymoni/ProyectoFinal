@@ -1,0 +1,381 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text-final, .servicios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+  background: #e7eef3;
+  font-size: 1.3em;
+  color: #3f3f3f !important;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: auto;
+  margin-top: 100px;
+  color: rgba(61, 61, 61, 0.699);
+}
+h1:hover {
+  color: #ff4646;
+}
+
+h2 {
+  color: #dadada;
+  padding: 20px;
+  margin: 10px;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  width: 100%;
+  height: 100px;
+}
+
+.logo-principal {
+  width: 30%;
+  margin-left: 20%;
+}
+
+.navbar-nav {
+  padding-right: 90px;
+  font-size: 22px;
+  align-items: flex-end;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #3f3f3f !important;
+  border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+  color: #ff4646 !important;
+  border-bottom: 2px solid #ff4646;
+}
+
+.servicios {
+  margin: 100px 80px;
+}
+@media only screen and (max-width: 400px) {
+  .servicios {
+    flex-direction: column;
+    margin: 60px 15px;
+    width: 100%;
+  }
+}
+
+.img-servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-row: auto;
+}
+.img-servicios-grid img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.img-servicios-grid img:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 400px) {
+  .img-servicios-grid {
+    grid-template-columns: repeat(5, 100px);
+    grid-row: auto;
+    width: 100%;
+  }
+}
+
+.textos-servicios {
+  line-height: 60px;
+  font-size: 1.2em;
+  width: 40%;
+  margin: 20px 20px;
+  text-align: left;
+}
+.textos-servicios i:hover {
+  transform: rotate(20deg);
+  color: #ff476c;
+}
+@media only screen and (max-width: 400px) {
+  .textos-servicios {
+    width: 100%;
+    font-size: 1em;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+}
+
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 100px 80px;
+}
+.nosotros p {
+  line-height: 30px;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 30px;
+  margin: 20px 30px 20px 5px;
+  text-align: justify;
+  border: 0.5px solid #a1a1a1;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.nosotros p:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.nosotros span {
+  background: #765dff;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: auto;
+  margin-right: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 400px) {
+  .nosotros {
+    flex-direction: column;
+    margin: 40px 10px;
+  }
+  .nosotros p {
+    font-size: 1em;
+    padding: 4px;
+    margin: 20px 30px 20px 5px;
+    text-align: left;
+  }
+}
+
+.logo-nosotros {
+  width: 35%;
+  margin: 20px 50px;
+  padding: 50px;
+}
+@media only screen and (max-width: 400px) {
+  .logo-nosotros {
+    width: 100%;
+    margin: 20px 20px;
+    padding: 30px;
+  }
+}
+
+.textos-nosotros {
+  padding: 0 70px;
+  margin: 20px 5px 20px 35px;
+}
+@media only screen and (max-width: 400px) {
+  .textos-nosotros {
+    padding: 5px 1px;
+    margin: 5px;
+    width: 100%;
+  }
+}
+
+.text-img-fix {
+  background: url(../images/new-york.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-fix {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.text-fix-1 {
+  font-size: 2.5em;
+  color: #ece1e1;
+  padding-bottom: 50px;
+}
+
+.text-fix-2 {
+  font-size: 2em;
+  color: #fc0404;
+}
+
+.title-final {
+  color: #414141;
+  padding-top: 15px;
+}
+
+.contáctanos {
+  background-color: #46464688;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.form {
+  width: 400px;
+  flex: 1;
+  text-align: left;
+  padding: 30px;
+}
+.form textarea {
+  min-height: 90px;
+  resize: none;
+}
+.form textarea::placeholder {
+  color: #414141;
+}
+
+.form__section {
+  width: 400px;
+  margin: 0 10px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 3px;
+  margin: 10px 20px;
+  border: none;
+  border-bottom: 3px solid #cfcfcf;
+  background-color: transparent;
+  color: white;
+  font-family: inherit;
+  font-size: 18px;
+}
+.form__input:focus {
+  background: linear-gradient(to bottom, transparent, #555);
+  outline: none;
+}
+
+input::placeholder {
+  color: #414141;
+}
+
+.icon-contac {
+  text-align: center;
+  width: 33%;
+  padding: 30px;
+}
+.icon-contac a {
+  text-decoration: none;
+  color: #f5f7f7;
+}
+.icon-contac a i {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.fa-facebook-square:hover {
+  color: #0202f0;
+}
+
+.fa-envelope-square:hover {
+  color: red;
+}
+
+.fa-twitter-square:hover {
+  color: #5dc4ff;
+}
+
+.fa-instagram-square:hover {
+  color: #dd2a7b;
+}
+
+.contact-info {
+  color: #f7f7f7;
+  text-align: center;
+  width: 33%;
+  padding: 30px;
+  text-align: center;
+  align-content: center;
+}
+.contact-info li {
+  line-height: 40px;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  margin: 10px 0px;
+  width: 100%;
+}
+.contact-info ul {
+  margin: 5px;
+  padding: 0;
+}
+
+.fa-map-marker-alt {
+  color: #ffe8bd;
+}
+
+.fa-envelope {
+  color: red;
+}
+
+.fa-phone-square-alt {
+  color: #00cf00;
+}
+
+.text-final {
+  margin: 10px auto;
+  text-align: center;
+}
+.text-final p {
+  color: #000;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 60px;
+  padding-left: 200px;
+}
+.text-final a {
+  text-align: right;
+}
+.text-final i {
+  font-size: 30px;
+  color: #555;
+}
+.text-final i:hover {
+  color: #ffab10;
+}
+@media only screen and (max-width: 400px) {
+  .text-final {
+    text-align: left;
+    margin: 5px auto;
+  }
+  .text-final p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 1px;
+  }
+  .text-final i {
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+header {
+    background-color: $bgheader;
+    padding: 10px 0;
+    width: $ancho;
+    height: 100px;
+}
+
+.logo-principal {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.navbar-nav {
+    padding-right: 90px;
+    font-size: 22px;
+    align-items: flex-end;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: $colornav;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+        color: $colorhover !important;
+        border-bottom: 2px solid rgb(255, 70, 70);
+    }
+}

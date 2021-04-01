@@ -1,0 +1,102 @@
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 100px 80px;
+
+    p {
+        line-height: 30px;
+        font-size: 1.2em;
+        width: 100%;
+        padding: 30px;
+        margin: 20px 30px 20px 5px;
+        text-align: justify;
+        border: 0.5px solid rgb(161, 161, 161);
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+
+        &:hover {
+            box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+        }
+    }
+
+    span {
+        background: rgb(118, 93, 255);
+        color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        padding: auto;
+        margin-right: 6px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    }
+
+    @media only screen and (max-width: 400px) {
+        flex-direction: column;
+        margin: 40px 10px;
+
+        p {
+            font-size: 1em;
+            padding: 4px;
+            margin: 20px 30px 20px 5px;
+            text-align: left;
+        }
+    }
+}
+
+.logo-nosotros {
+    width: 35%;
+    margin: 20px 50px;
+    padding: 50px;
+
+    @media only screen and (max-width: 400px) {
+        width: 100%;
+        margin: 20px 20px;
+        padding: 30px;
+    }
+    
+}
+
+.textos-nosotros {
+    padding: 0 70px;
+    margin: 20px 5px 20px 35px;
+
+    @media only screen and (max-width: 400px) {
+        padding: 5px 1px;
+        margin: 5px;
+        width: 100%;
+    }
+}
+
+.text-img-fix {
+    background: url(../images/new-york.png);
+    width: $ancho;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-fix {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: $ancho;
+    text-align: center;
+}
+
+.text-fix-1 {
+    font-size: 2.5em;
+    color: rgb(236, 225, 225);
+    padding-bottom: 50px;
+}
+
+.text-fix-2 {
+    font-size: 2em;
+    color: rgb(252, 4, 4);
+}
