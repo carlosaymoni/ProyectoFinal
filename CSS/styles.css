@@ -22,21 +22,32 @@ body {
   }
 }
 
-h1 {
-  font-size: 2em;
+h1, .title-nosotros {
   text-align: center;
-  padding: auto;
   margin-top: 100px;
   color: rgba(61, 61, 61, 0.699);
+  line-height: 3.2 !important;
+  font-weight: 400 !important;
 }
-h1:hover {
+h1:hover, .title-nosotros:hover {
   color: #ff4646;
+}
+@media only screen and (max-width: 400px) {
+  h1, .title-nosotros {
+    font-size: 1.5em !important;
+  }
 }
 
 h2 {
   color: #dadada;
   padding: 20px;
   margin: 10px;
+}
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 22px !important;
+    padding: 1px;
+  }
 }
 
 header {
@@ -73,7 +84,7 @@ header {
 @media only screen and (max-width: 400px) {
   .servicios {
     flex-direction: column;
-    margin: 60px 15px;
+    margin: 0px 15px;
     width: 100%;
   }
 }
@@ -238,6 +249,13 @@ header {
   padding: 20px;
   margin: 0 20px;
 }
+@media only screen and (max-width: 400px) {
+  .flex-container {
+    flex-direction: column;
+    padding: 1px;
+    margin: 0 1px;
+  }
+}
 
 .form {
   width: 400px;
@@ -291,6 +309,12 @@ input::placeholder {
   font-size: 30px;
   padding: 10px;
 }
+@media only screen and (max-width: 400px) {
+  .icon-contac {
+    width: 100%;
+    padding: 5px;
+  }
+}
 
 .fa-facebook-square:hover {
   color: #0202f0;
@@ -327,6 +351,12 @@ input::placeholder {
 .contact-info ul {
   margin: 5px;
   padding: 0;
+}
+@media only screen and (max-width: 400px) {
+  .contact-info {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .fa-map-marker-alt {
