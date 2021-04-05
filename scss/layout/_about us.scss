@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    margin: 100px 80px;
+    margin: 30px 95px;
 
     p {
         line-height: 30px;
@@ -11,7 +11,6 @@
         width: 100%;
         padding: 30px;
         margin: 20px 30px 20px 5px;
-        text-align: justify;
         border: 0.5px solid rgb(161, 161, 161);
         border-radius: 5px;
         box-shadow: 0 0 8px rgba(0, 0, 0, .5);
@@ -50,6 +49,7 @@
 
 .logo-nosotros {
     width: 35%;
+    max-width: 550px;
     margin: 20px 50px;
     padding: 50px;
 

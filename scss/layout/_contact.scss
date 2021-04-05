@@ -1,11 +1,10 @@
 .title-final {
-    color: rgb(65, 65, 65);
-    padding-top: 15px;
+    color: rgb(126, 126, 126);
 }
 
 .contáctanos {
-    background-color: #46464688;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    background-color: #000000cc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
     width: $ancho;
     text-align: center;
 }
@@ -62,7 +61,10 @@
 }
 
 input::placeholder {
-    color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+}
+textarea::placeholder {
+    color: rgb(230, 230, 230)!important;
 }
 
 .icon-contac {
