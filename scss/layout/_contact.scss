@@ -1,5 +1,5 @@
 .title-final {
-    color: rgb(126, 126, 126);
+    color: #e4e4e4;
 }
 
 .contáctanos {
@@ -63,8 +63,9 @@
 input::placeholder {
     color: rgb(230, 230, 230);
 }
+
 textarea::placeholder {
-    color: rgb(230, 230, 230)!important;
+    color: rgb(230, 230, 230) !important;
 }
 
 .icon-contac {
@@ -73,8 +74,8 @@ textarea::placeholder {
     padding: 30px;
 
     a {
-        text-decoration: none;
-        color: #f5f7f7;
+        text-decoration: none !important;
+        color: #f5f7f7 !important;
 
         i {
             font-size: 30px;

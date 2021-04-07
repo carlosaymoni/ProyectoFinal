@@ -51,9 +51,9 @@ h2 {
 
 header {
   background-color: #f8f9fa;
-  padding: 10px 0;
+  padding: 5px 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 
 .logo-principal {
@@ -230,7 +230,7 @@ header {
 }
 
 .title-final {
-  color: #7e7e7e;
+  color: #e4e4e4;
 }
 
 .contáctanos {
@@ -303,8 +303,8 @@ textarea::placeholder {
   padding: 30px;
 }
 .icon-contac a {
-  text-decoration: none;
-  color: #f5f7f7;
+  text-decoration: none !important;
+  color: #f5f7f7 !important;
 }
 .icon-contac a i {
   font-size: 30px;
