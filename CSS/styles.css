@@ -27,7 +27,7 @@ h1, .title-nosotros {
 h1:hover, .title-nosotros:hover {
   color: #ff4646;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   h1, .title-nosotros {
     font-size: 1.5em !important;
   }
@@ -37,7 +37,7 @@ h2 {
   color: #dadada;
   padding: 10px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   h2 {
     font-size: 22px !important;
     padding: 1px;
@@ -72,7 +72,7 @@ header {
   border-bottom: 2px solid #ff4646;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   header {
     height: 50px;
   }
@@ -84,7 +84,7 @@ header {
 .servicios {
   margin: 100px 80px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .servicios {
     flex-direction: column;
     margin: 0px 15px;
@@ -104,7 +104,7 @@ header {
 .img-servicios-grid img:hover {
   transform: scale(1.1);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .img-servicios-grid {
     grid-template-columns: repeat(4, 100px);
     grid-row: auto;
@@ -123,7 +123,7 @@ header {
   transform: rotate(20deg);
   color: #ff476c;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .textos-servicios {
     width: 100%;
     font-size: 1em;
@@ -165,7 +165,7 @@ header {
   margin-right: 6px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .nosotros {
     flex-direction: column;
     margin: 40px 10px;
@@ -187,7 +187,7 @@ header {
   margin: 20px 50px;
   padding: 50px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .logo-nosotros {
     width: 70%;
     margin: 20px 20px;
@@ -199,7 +199,7 @@ header {
   padding: 0 70px;
   margin: 20px 5px 20px 35px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .textos-nosotros {
     padding: 5px 1px;
     margin: 5px;
@@ -311,6 +311,21 @@ header {
   }
 }
 
+.submit {
+  border: 2px solid #bba9a9;
+  background: linear-gradient(to bottom, transparent, #bba9a9);
+  border-radius: 5px;
+  color: #e6e6e6;
+  font-family: inherit;
+  font-size: 18px;
+  width: 25%;
+}
+.submit:focus {
+  background: linear-gradient(to bottom, transparent, #a1a1a1);
+  color: white;
+  border: 2px solid #555;
+}
+
 input::placeholder {
   color: #e6e6e6;
 }
@@ -415,7 +430,7 @@ textarea::placeholder {
 .text-final i:hover {
   color: #ffab10;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 576px) {
   .text-final {
     text-align: left;
     margin: 5px auto;

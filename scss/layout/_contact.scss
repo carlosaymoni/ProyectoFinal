@@ -77,6 +77,22 @@
     }
 }
 
+.submit {
+    border: 2px solid rgb(187, 169, 169);
+    background: linear-gradient(to bottom, transparent, rgb(187, 169, 169));
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    font-family: inherit;
+    font-size: 18px;
+    width: 25%;
+    
+    &:focus {
+        background: linear-gradient(to bottom, transparent, rgb(161, 161, 161));
+        color: white;
+        border: 2px solid #555;
+    }
+}
+
 input::placeholder {
     color: rgb(230, 230, 230);
 }

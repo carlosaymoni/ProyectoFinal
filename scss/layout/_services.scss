@@ -2,7 +2,7 @@
     @extend %flexbox;
     margin: 100px 80px;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         flex-direction: column;
         margin: 0px 15px;
         width: 100%;
@@ -23,7 +23,7 @@
         }
     }
     
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         grid-template-columns: repeat(4, 100px);
         grid-row: auto;
         width: 100%;
@@ -45,7 +45,7 @@
         }
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         width: 100%;
         font-size: 1em;
         margin: 20px 0;
