@@ -9,10 +9,6 @@ body {
     background: #e7eef3;
     font-size: 1.3em;
     color: $colornav;
-
-    @media only screen and (max-width: 400px) {
-        width: 100%;
-    }
 }
 
 h1, .title-nosotros {

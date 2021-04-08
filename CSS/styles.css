@@ -16,11 +16,6 @@ body {
   font-size: 1.3em;
   color: #3f3f3f !important;
 }
-@media only screen and (max-width: 400px) {
-  body {
-    width: 100%;
-  }
-}
 
 h1, .title-nosotros {
   text-align: center;
@@ -77,6 +72,15 @@ header {
   border-bottom: 2px solid #ff4646;
 }
 
+@media only screen and (max-width: 400px) {
+  header {
+    height: 50px;
+  }
+
+  .logo-principal {
+    margin-left: 0%;
+  }
+}
 .servicios {
   margin: 100px 80px;
 }

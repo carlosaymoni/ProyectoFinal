@@ -27,3 +27,13 @@ header {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    header {
+        height: 50px; 
+    }
+    
+    .logo-principal {
+        margin-left: 0%;
+        
+    }
+}
