@@ -1,5 +1,10 @@
 .title-final {
     color: #e4e4e4;
+    
+    @media only screen and (max-width: 400px) {
+        display: none;
+    }
+
 }
 
 .contáctanos {
@@ -7,6 +12,8 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
     width: $ancho;
     text-align: center;
+
+
 }
 
 .flex-container {
@@ -36,6 +43,12 @@
             color: rgb(65, 65, 65);
         }
     }
+
+    @media only screen and (max-width: 400px) {
+        .form {
+            padding: 2px;
+        }
+    }
 }
 
 .form__section {
@@ -57,6 +70,10 @@
     &:focus {
         background: linear-gradient(to bottom, transparent, #555);
         outline: none;
+    }
+
+    @media only screen and (max-width: 400px) {
+        display: none;
     }
 }
 

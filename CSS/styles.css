@@ -102,7 +102,7 @@ header {
 }
 @media only screen and (max-width: 400px) {
   .img-servicios-grid {
-    grid-template-columns: repeat(5, 100px);
+    grid-template-columns: repeat(4, 100px);
     grid-row: auto;
     width: 100%;
   }
@@ -172,6 +172,9 @@ header {
     margin: 20px 30px 20px 5px;
     text-align: left;
   }
+  .nosotros span {
+    display: none;
+  }
 }
 
 .logo-nosotros {
@@ -182,7 +185,7 @@ header {
 }
 @media only screen and (max-width: 400px) {
   .logo-nosotros {
-    width: 100%;
+    width: 70%;
     margin: 20px 20px;
     padding: 30px;
   }
@@ -232,6 +235,11 @@ header {
 .title-final {
   color: #e4e4e4;
 }
+@media only screen and (max-width: 400px) {
+  .title-final {
+    display: none;
+  }
+}
 
 .contáctanos {
   background-color: #000000cc;
@@ -267,6 +275,11 @@ header {
 .form textarea::placeholder {
   color: #414141;
 }
+@media only screen and (max-width: 400px) {
+  .form .form {
+    padding: 2px;
+  }
+}
 
 .form__section {
   width: 400px;
@@ -287,6 +300,11 @@ header {
 .form__input:focus {
   background: linear-gradient(to bottom, transparent, #555);
   outline: none;
+}
+@media only screen and (max-width: 400px) {
+  .form__input {
+    display: none;
+  }
 }
 
 input::placeholder {
@@ -405,7 +423,7 @@ textarea::placeholder {
     padding-left: 1px;
   }
   .text-final i {
-    font-size: 25px;
+    display: none;
   }
 }
 
