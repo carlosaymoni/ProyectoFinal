@@ -1,7 +1,7 @@
 .title-final {
     color: #e4e4e4;
-    
-    @media only screen and (max-width: 400px) {
+
+    @media only screen and (max-width: 576px) {
         display: none;
     }
 
@@ -12,28 +12,13 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
     width: $ancho;
     text-align: center;
-
-
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin: 0 20px;
-
-    @media only screen and (max-width: 400px) {
-        flex-direction: column;
-        padding: 1px;
-        margin: 0 1px;
-    }
 }
 
 .form {
-    width: 400px;
     flex: 1;
+    width: 400px;
     text-align: left;
-    padding: 30px;
+    padding: 15px;
 
     textarea {
         min-height: 90px;
@@ -44,20 +29,27 @@
         }
     }
 
-    @media only screen and (max-width: 400px) {
-        .form {
-            padding: 2px;
-        }
+    @media only screen and (max-width: 576px) {
+        padding: 2px;
+    }
+
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        padding: 15px;
     }
 }
 
 .form__section {
     width: 400px;
     margin: 0 10px;
+
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 300px;
+        margin: 0px;
+    }
 }
 
 .form__input {
-    width: $ancho;
+    width: $ancho - 10%;
     padding: 3px;
     margin: 10px 20px;
     border: none;
@@ -72,8 +64,12 @@
         outline: none;
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         display: none;
+    }
+
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 100%;
     }
 }
 
@@ -84,12 +80,16 @@
     color: rgb(230, 230, 230);
     font-family: inherit;
     font-size: 18px;
-    width: 25%;
-    
+    width: 45%;
+
     &:focus {
         background: linear-gradient(to bottom, transparent, rgb(161, 161, 161));
         color: white;
         border: 2px solid #555;
+    }
+    
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 30%;
     }
 }
 
@@ -103,7 +103,7 @@ textarea::placeholder {
 
 .icon-contac {
     text-align: center;
-    width: $ancho - 67%;
+    width: $ancho;
     padding: 30px;
 
     a {
@@ -116,10 +116,21 @@ textarea::placeholder {
         }
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         width: $ancho;
         padding: 5px;
     }
+    
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 100%;
+        padding: 2px;
+        
+        h2 {
+            display: none;
+        }
+    }
+
+    
 }
 
 .fa-facebook-square:hover {
@@ -141,9 +152,8 @@ textarea::placeholder {
 .contact-info {
     color: #f7f7f7;
     text-align: center;
-    width: 33%;
+    width: 100%;
     padding: 30px;
-    text-align: center;
     align-content: center;
 
     li {
@@ -160,11 +170,23 @@ textarea::placeholder {
         padding: 0;
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 576px) {
         width: $ancho;
         padding: 20px;
+        
+        li {
+        line-height: 30px;
+        }
     }
 
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+        
+        li {
+            line-height: 28px;
+        }
+    }
 }
 
 .fa-map-marker-alt {

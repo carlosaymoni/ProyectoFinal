@@ -1,19 +1,21 @@
 header {
     background-color: $bgheader;
-    padding: 5px 0;
     width: $ancho;
-    height: 80px;
+    height: 100%;
 }
 
 .logo-principal {
     width: 30%;
-    margin-left: 20%;
+}
+
+.navbar {
+    background-color: transparent !important;
 }
 
 .navbar-nav {
-    padding-right: 90px;
-    font-size: 22px;
-    align-items: flex-end;
+    font-size: 1em;
+    text-transform: uppercase;
+    align-items: center;
 }
 
 .nav-link {
@@ -27,13 +29,34 @@ header {
     }
 }
 
+.navbar-brand {
+    width: 80% !important;
+    margin-right: 0 !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 140, 140, 0.87) !important;
+    font-size: 0.75rem !important;
+    border-radius: 1rem !important;
+
+    &:hover {
+        border: 2px solid rgb(255, 56, 56) !important;
+    }
+}
+
+
 @media only screen and (max-width: 576px) {
-    header {
-        height: 50px; 
-    }
-    
     .logo-principal {
-        margin-left: 0%;
-        
+        width: 50%;
     }
+
+    .nav-link {
+        border-bottom: none;
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
+
 }

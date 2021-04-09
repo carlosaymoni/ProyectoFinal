@@ -43,16 +43,16 @@
     <!-- Encabezado de la pagina con el logo y menu con Bootstrap-->
 
     <header>
-        <nav class="navbar navbar-expand-lg justify-content-end navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg justify-content-between navbar-light bg-light">
+            <div class="container">
                 <a class="navbar-brand" href="Index.html"><img src="images/dibujo.png"
                         class="logo-principal animate__animated animate__zoomIn" alt="logo de la pagina"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse align-items-center" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="Index.html">Inicio</a>
                         </li>
@@ -136,55 +136,56 @@
                 <img src="images/git_plain_wordmark_logo_icon_146508.png" alt="logo de git">
             </div>
         </div>
+    </div>
+    <!-- Nosotros -->
 
-        <!-- Nosotros -->
-
-        <div id="nosotros">
-            <h2 class="title-nosotros">Nosotros</h2>
-            <div class="nosotros">
-                <img src="images/dibujo.png" alt="imagen del logo mas pequeño"
-                    class="logo-nosotros animate__animated animate__flipInX animate__delay-3s">
-                <div class="textos-nosotros">
-                    <p>
-                        <span>1</span> En NeroWeb diseñamos y desarrollamos soluciones de negocio a medida escalables
-                        según
-                        la necesidad del cliente.
-                    </p>
-                    <p><span>2</span> Aportamos talentosas habilidades creativas, técnicas y estratégicas a cada sitio
-                        que
-                        diseñamos.
-                    </p>
-                    <p><span>3</span> Con experiencia en diseño y desarrollo web, tenemos el alcance y el talento para
-                        crear
-                        sitios web increíbles.
-                    </p>
-                    <p><span>4</span> Nos mantenemos en constante aprendizaje de nuevas tegnoligias para poder brindar
-                        el mejor servicio.
-                    </p>
-                </div>
+    <div id="nosotros">
+        <h2 class="title-nosotros">Nosotros</h2>
+        <div class="nosotros">
+            <img src="images/dibujo.png" alt="imagen del logo mas pequeño"
+                class="logo-nosotros animate__animated animate__flipInX animate__delay-3s">
+            <div class="textos-nosotros">
+                <p>
+                    <span>1</span> En NeroWeb diseñamos y desarrollamos soluciones de negocio a medida escalables
+                    según
+                    la necesidad del cliente.
+                </p>
+                <p><span>2</span> Aportamos talentosas habilidades creativas, técnicas y estratégicas a cada sitio
+                    que
+                    diseñamos.
+                </p>
+                <p><span>3</span> Con experiencia en diseño y desarrollo web, tenemos el alcance y el talento para
+                    crear
+                    sitios web increíbles.
+                </p>
+                <p><span>4</span> Nos mantenemos en constante aprendizaje de nuevas tegnoligias para poder brindar
+                    el mejor servicio.
+                </p>
             </div>
         </div>
+    </div>
 
-        <!-- Imagen fija -->
+    <!-- Imagen fija -->
 
-        <section class="text-img-fix">
-            <div class="text-fix">
-                <h3 class="text-fix-1">
-                    Hacemos realidad el sueño de cada cliente
-                </h3>
-                <h3 class="text-fix-2">
-                    Diseñando su pagina Web
-                </h3>
-            </div>
-        </section>
+    <section class="text-img-fix">
+        <div class="text-fix">
+            <h3 class="text-fix-1">
+                Hacemos realidad el sueño de cada cliente
+            </h3>
+            <h3 class="text-fix-2">
+                Diseñando su pagina Web
+            </h3>
+        </div>
+    </section>
 
-        <!-- Contacto -->
+    <!-- Contacto -->
 
-        <section class="contáctanos">
-            <div class="container-fluid">
-                <div id="contacto">
-                    <h2 class="title-final">Contáctanos</h2>
-                    <div class="flex-container">
+    <section class="contáctanos">
+        <div class="container-fluid">
+            <div id="contacto">
+                <h2 class="title-final">Contáctanos</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <form class="form">
                             <div class="form__section">
                                 <input type="text" class="form__input" placeholder="Nombre">
@@ -199,7 +200,8 @@
                                 <input type="submit" class="form__input submit">
                             </div>
                         </form>
-
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="contact-info">
                             <h2>Contact-info</h2>
                             <ul>
@@ -211,7 +213,8 @@
                                 </li>
                             </ul>
                         </div>
-
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
                         <nav class="icon-contac">
                             <h2>Nuestras Redes</h2>
                             <a href="https://www.facebook.com" target="blank_">
@@ -230,27 +233,28 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="text-final">
-                <p>
-                    Copyright © - NeroWeb - | Todos los derechos reservados - Design by NeroWeb
-                </p>
-                <a href="Index.html"><i class="fas fa-chevron-circle-up"></i class="img-final">
-                </a>
-            </div>
-        </footer>
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-        </script>
-        </script>
+        </div>
+    </section>
+    <footer>
+        <div class="text-final container-fluid">
+            <p>
+                Copyright © - NeroWeb - | Todos los derechos reservados - Design by NeroWeb
+            </p>
+            <a href="Index.html"><i class="fas fa-chevron-circle-up"></i class="img-final">
+            </a>
+        </div>
+    </footer>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+    </script>
 </body>
 
 </html>

@@ -49,6 +49,18 @@
             display: none;
         }
     }
+     
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        flex-direction: column;
+        margin: 10px;
+
+        p {
+           font-size: 1.2em;
+           padding: 4px;
+           margin: 20px 30px 20px 5px;
+           text-align: left;
+        }
+    }
 }
 
 .logo-nosotros {
@@ -62,7 +74,12 @@
         margin: 20px 20px;
         padding: 30px;
     }
-    
+
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+        width: 50%;
+        margin: 20px;
+        padding: 30px;
+    }
 }
 
 .textos-nosotros {
@@ -74,6 +91,7 @@
         margin: 5px;
         width: 100%;
     }
+    
 }
 
 .text-img-fix {
@@ -82,6 +100,13 @@
     height: auto;
     background-size: cover;
     background-attachment: fixed;
+
+    @media only screen and (max-width: 576px) {
+        width: $ancho;
+        height: auto;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 .text-fix {

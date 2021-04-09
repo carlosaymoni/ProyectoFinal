@@ -8,7 +8,7 @@
 body {
     background: #e7eef3;
     font-size: 1.3em;
-    color: $colornav;
+    color: $colornav;    
 }
 
 h1, .title-nosotros {
@@ -35,6 +35,7 @@ h2 {
     @media only screen and (max-width: 576px) {
         font-size: 22px !important;
         padding: 1px;
+        margin-top: 8px !important;
     }
 
 }
