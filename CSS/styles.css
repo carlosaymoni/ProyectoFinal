@@ -114,7 +114,14 @@ header {
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .servicios {
     flex-direction: column;
-    margin: 0px 15px;
+    margin: 0px auto;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .servicios {
+    flex-direction: column;
+    margin: 0px auto;
     width: 100%;
   }
 }
@@ -169,8 +176,16 @@ header {
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .textos-servicios {
-    width: 100%;
+    width: 80%;
     font-size: 1.2em;
+    margin: 20px;
+    line-height: 50px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .textos-servicios {
+    width: 70%;
+    font-size: 1.4em;
     margin: 20px;
     line-height: 50px;
   }
@@ -230,18 +245,26 @@ header {
     margin: 10px;
   }
   .nosotros p {
-    font-size: 1.2em;
-    padding: 4px;
-    margin: 20px 30px 20px 5px;
+    font-size: 1.1em;
+    padding: 15px;
+    margin: 20px auto;
     text-align: left;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .nosotros {
+    margin: 15px 20px;
+  }
+  .nosotros p {
+    padding: 15px;
   }
 }
 
 .logo-nosotros {
   width: 35%;
   max-width: 550px;
-  margin: 20px 50px;
-  padding: 50px;
+  margin: auto;
+  padding: 35px;
 }
 @media only screen and (max-width: 576px) {
   .logo-nosotros {
@@ -257,10 +280,17 @@ header {
     padding: 30px;
   }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo-nosotros {
+    width: 37%;
+    margin: auto;
+    padding: 0px;
+  }
+}
 
 .textos-nosotros {
   padding: 0 70px;
-  margin: 20px 5px 20px 35px;
+  margin: 20px auto;
 }
 @media only screen and (max-width: 576px) {
   .textos-nosotros {
@@ -324,7 +354,6 @@ header {
 }
 
 .form {
-  flex: 1;
   width: 400px;
   text-align: left;
   padding: 15px;
@@ -352,6 +381,12 @@ header {
   margin: 0 10px;
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  .form__section {
+    width: 300px;
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .form__section {
     width: 300px;
     margin: 0px;
@@ -399,6 +434,11 @@ header {
   border: 2px solid #555;
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  .submit {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .submit {
     width: 30%;
   }

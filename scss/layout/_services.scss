@@ -10,7 +10,13 @@
 
     @media only screen and (min-width: 577px) and (max-width: 768px) {
         flex-direction: column;
-        margin: 0px 15px;
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        flex-direction: column;
+        margin: 0px auto;
         width: 100%;
     }
 }
@@ -38,9 +44,9 @@
             padding: 15px;
         }
     }
-   
+
     @media only screen and (min-width: 577px) and (max-width: 768px) {
-        
+
         img {
             width: 60%;
             padding: 10px;
@@ -70,8 +76,15 @@
     }
 
     @media only screen and (min-width: 577px) and (max-width: 768px) {
-        width: 100%;
+        width: 80%;
         font-size: 1.2em;
+        margin: 20px;
+        line-height: 50px;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        width: 70%;
+        font-size: 1.4em;
         margin: 20px;
         line-height: 50px;
     }
