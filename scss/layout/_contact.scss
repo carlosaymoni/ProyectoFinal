@@ -8,8 +8,7 @@
 }
 
 .contáctanos {
-    background-color: #000000cc;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    background-color: #000000cc;;
     width: $ancho;
     text-align: center;
 }
@@ -86,7 +85,7 @@
     font-size: 18px;
     width: 45%;
 
-    &:focus {
+    &:hover {
         background: linear-gradient(to bottom, transparent, rgb(161, 161, 161));
         color: white;
         border: 2px solid #555;
@@ -177,6 +176,10 @@ textarea::placeholder {
     ul {
         margin: 5px;
         padding: 0;
+    }
+
+    b, p {
+        color: #ffa500;
     }
 
     @media only screen and (max-width: 576px) {

@@ -107,7 +107,7 @@ header {
 @media only screen and (max-width: 576px) {
   .servicios {
     flex-direction: column;
-    margin: 0px 15px;
+    margin: 0px auto;
     width: 100%;
   }
 }
@@ -161,6 +161,9 @@ header {
   width: 40%;
   margin: 20px 20px;
   text-align: left;
+}
+.textos-servicios i {
+  color: orange;
 }
 .textos-servicios i:hover {
   transform: rotate(20deg);
@@ -309,6 +312,7 @@ header {
 }
 @media only screen and (max-width: 576px) {
   .text-img-fix {
+    background: url(../images/new-york.png);
     width: 100%;
     height: auto;
     background-size: cover;
@@ -348,7 +352,6 @@ header {
 
 .contáctanos {
   background-color: #000000cc;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   width: 100%;
   text-align: center;
 }
@@ -428,7 +431,7 @@ header {
   font-size: 18px;
   width: 45%;
 }
-.submit:focus {
+.submit:hover {
   background: linear-gradient(to bottom, transparent, #a1a1a1);
   color: white;
   border: 2px solid #555;
@@ -515,6 +518,9 @@ textarea::placeholder {
 .contact-info ul {
   margin: 5px;
   padding: 0;
+}
+.contact-info b, .contact-info p {
+  color: #ffa500;
 }
 @media only screen and (max-width: 576px) {
   .contact-info {
