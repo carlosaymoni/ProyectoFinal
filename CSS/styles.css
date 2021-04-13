@@ -102,7 +102,7 @@ header {
   }
 }
 .servicios {
-  margin: 100px 80px;
+  margin: 100px auto;
 }
 @media only screen and (max-width: 576px) {
   .servicios {
@@ -199,7 +199,7 @@ header {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: 30px 95px;
+  margin: 30px auto;
 }
 .nosotros p {
   line-height: 30px;
@@ -207,7 +207,7 @@ header {
   width: 100%;
   padding: 30px;
   margin: 20px 30px 20px 5px;
-  border: 0.5px solid #a1a1a1;
+  border-style: inset;
   border-radius: 5px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
@@ -215,7 +215,7 @@ header {
   box-shadow: 0 0 25px #3a3a3a;
 }
 .nosotros span {
-  background: #765dff;
+  background: #ffcd70;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -237,9 +237,6 @@ header {
     padding: 4px;
     margin: 20px 30px 20px 5px;
     text-align: left;
-  }
-  .nosotros span {
-    display: none;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
