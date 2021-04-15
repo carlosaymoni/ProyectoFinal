@@ -103,26 +103,15 @@
         padding: 5px 1px;
         margin: 5px;
         width: 100%;
-    }
-
-
-    
+    }    
 }
 
 .text-img-fix {
     background: url(../images/new-york.png);
     width: $ancho;
-    height: auto;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
-    @media only screen and (max-width: 576px) {
-        background: url(../images/new-york.png);
-        width: $ancho;
-        height: auto;
-        background-size: cover;
-        background-attachment: fixed;
-    }
 }
 
 .text-fix {
