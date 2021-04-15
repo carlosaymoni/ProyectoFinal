@@ -63,15 +63,18 @@
 
     i {
         color: orange;
-        
-        &:hover {
+    }
+
+    &:hover {
+        i {
             transform: rotate(20deg);
-            color: rgb(255, 71, 108);
+            color: rgb(255, 0, 51);
         }
     }
 
+
     @media only screen and (max-width: 576px) {
-        width: 100%;
+        width: 90%;
         font-size: 1em;
         margin: 20px 0;
         line-height: 30px;

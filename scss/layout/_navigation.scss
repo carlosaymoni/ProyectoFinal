@@ -8,10 +8,6 @@ header {
     width: 30%;
 }
 
-.navbar {
-    background-color: transparent !important;
-}
-
 .navbar-nav {
     font-size: 1em;
     text-transform: uppercase;
@@ -35,13 +31,7 @@ header {
 }
 
 .navbar-toggler {
-    border-color: rgba(255, 140, 140, 0.87) !important;
     font-size: 0.75rem !important;
-    border-radius: 1rem !important;
-
-    &:hover {
-        border: 2px solid rgb(255, 56, 56) !important;
-    }
 }
 
 

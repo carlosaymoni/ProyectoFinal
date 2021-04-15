@@ -55,10 +55,6 @@ header {
   width: 30%;
 }
 
-.navbar {
-  background-color: transparent !important;
-}
-
 .navbar-nav {
   font-size: 1em;
   text-transform: uppercase;
@@ -81,12 +77,7 @@ header {
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 140, 140, 0.87) !important;
   font-size: 0.75rem !important;
-  border-radius: 1rem !important;
-}
-.navbar-toggler:hover {
-  border: 2px solid #ff3838 !important;
 }
 
 @media only screen and (max-width: 576px) {
@@ -165,13 +156,13 @@ header {
 .textos-servicios i {
   color: orange;
 }
-.textos-servicios i:hover {
+.textos-servicios:hover i {
   transform: rotate(20deg);
-  color: #ff476c;
+  color: #ff0033;
 }
 @media only screen and (max-width: 576px) {
   .textos-servicios {
-    width: 100%;
+    width: 90%;
     font-size: 1em;
     margin: 20px 0;
     line-height: 30px;
@@ -199,17 +190,19 @@ header {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 .nosotros p {
   line-height: 30px;
   font-size: 1.2em;
   width: 100%;
   padding: 30px;
-  margin: 20px 30px 20px 5px;
+  margin: 20px auto;
   border-style: inset;
-  border-radius: 5px;
+  border-radius: 25px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #404040;
 }
 .nosotros p:hover {
   box-shadow: 0 0 25px #3a3a3a;
@@ -235,8 +228,9 @@ header {
   .nosotros p {
     font-size: 1em;
     padding: 4px;
-    margin: 20px 30px 20px 5px;
+    margin: 20px auto;
     text-align: left;
+    border-radius: 10px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -579,9 +573,6 @@ textarea::placeholder {
     margin-top: 10px;
     margin-left: 5px;
     padding-left: 1px;
-  }
-  .text-final i {
-    display: none;
   }
 }
 
