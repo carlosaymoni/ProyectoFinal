@@ -92,6 +92,58 @@ header {
     border-bottom: none;
   }
 }
+.carousel-item img {
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.carousel-caption .h5-img-1 {
+  text-align: left;
+  padding-bottom: 110px;
+  font-size: 3.5em;
+  color: #585858;
+  line-height: 85px;
+}
+.carousel-caption .h5-img-1 b {
+  color: #ff4500;
+}
+.carousel-caption .h5-img-3 {
+  text-align: right;
+  padding-bottom: 110px;
+  font-size: 3.5em;
+  color: #f5f5f5;
+  line-height: 85px;
+}
+.carousel-caption .h5-img-3 b {
+  color: #ff8e65;
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .carousel-caption .h5-img-1 {
+    text-align: left;
+    padding-bottom: 38px;
+    font-size: 2em;
+    line-height: 45px;
+  }
+  .carousel-caption .h5-img-3 {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel-caption .h5-img-1 {
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 3em;
+  }
+  .carousel-caption .h5-img-3 {
+    text-align: right;
+    padding-bottom: 115px;
+    font-size: 3em;
+  }
+}
+
 .servicios {
   margin: 100px auto;
 }
@@ -536,11 +588,11 @@ textarea::placeholder {
 }
 
 .text-final {
-  margin: 5px auto;
+  margin: auto;
   text-align: center;
 }
 .text-final p {
-  color: #000;
+  color: black;
   font-size: 1em;
   margin-top: 10px;
 }
@@ -549,7 +601,7 @@ textarea::placeholder {
 }
 .text-final i {
   font-size: 30px;
-  color: #555;
+  color: #424242;
 }
 .text-final i:hover {
   color: #ffab10;
@@ -557,13 +609,10 @@ textarea::placeholder {
 @media only screen and (max-width: 576px) {
   .text-final {
     text-align: left;
-    margin: 5px auto;
+    margin: auto;
   }
   .text-final p {
     font-size: 13px;
-    margin-top: 10px;
-    margin-left: 5px;
-    padding-left: 1px;
   }
 }
 
