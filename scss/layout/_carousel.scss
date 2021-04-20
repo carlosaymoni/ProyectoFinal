@@ -10,10 +10,10 @@
 .carousel-caption {
 
     .h5-img-1 {
-        text-align: left;
+        text-align: center;
         padding-bottom: 110px;
         font-size: 3.5em;
-        color: #585858;
+        color: #494949;
         line-height: 85px;
 
         b {
@@ -36,15 +36,15 @@
     @media only screen and (min-width: 577px) and (max-width: 768px) {
 
         .h5-img-1 {
-            text-align: left;
-            padding-bottom: 38px;
+            text-align: center;
+            padding-bottom: 0px;
             font-size: 2em;
             line-height: 45px;
         }
 
         .h5-img-3 {
-            text-align: center;
-            padding-bottom: 70px;
+            text-align: right;
+            padding-bottom: 10px;
             font-size: 2.5em;
         }
     }
@@ -52,15 +52,16 @@
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
         .h5-img-1 {
-            text-align: left;
-            padding-bottom: 30px;
+            text-align: center;
+            padding-bottom: 0px;
             font-size: 3em;
+            line-height: 45px;
         }
 
         .h5-img-3 {
             text-align: right;
-            padding-bottom: 115px;
-            font-size: 3em;
+            padding-bottom: 10px;
+            font-size: 2.5em;
         }
     }
 }

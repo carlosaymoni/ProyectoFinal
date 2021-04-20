@@ -21,8 +21,8 @@ h1, .title-nosotros {
   text-align: center;
   margin-top: 100px;
   color: rgba(61, 61, 61, 0.699);
-  line-height: 3.2 !important;
-  font-weight: 400 !important;
+  line-height: 3 !important;
+  font-weight: 400;
 }
 h1:hover, .title-nosotros:hover {
   color: #ff4646;
@@ -39,9 +39,9 @@ h2 {
 }
 @media only screen and (max-width: 576px) {
   h2 {
-    font-size: 22px !important;
+    font-size: 22px;
     padding: 1px;
-    margin-top: 8px !important;
+    margin-top: 8px;
   }
 }
 
@@ -99,10 +99,10 @@ header {
 }
 
 .carousel-caption .h5-img-1 {
-  text-align: left;
+  text-align: center;
   padding-bottom: 110px;
   font-size: 3.5em;
-  color: #585858;
+  color: #494949;
   line-height: 85px;
 }
 .carousel-caption .h5-img-1 b {
@@ -120,27 +120,28 @@ header {
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .carousel-caption .h5-img-1 {
-    text-align: left;
-    padding-bottom: 38px;
+    text-align: center;
+    padding-bottom: 0px;
     font-size: 2em;
     line-height: 45px;
   }
   .carousel-caption .h5-img-3 {
-    text-align: center;
-    padding-bottom: 70px;
+    text-align: right;
+    padding-bottom: 10px;
     font-size: 2.5em;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel-caption .h5-img-1 {
-    text-align: left;
-    padding-bottom: 30px;
+    text-align: center;
+    padding-bottom: 0px;
     font-size: 3em;
+    line-height: 45px;
   }
   .carousel-caption .h5-img-3 {
     text-align: right;
-    padding-bottom: 115px;
-    font-size: 3em;
+    padding-bottom: 10px;
+    font-size: 2.5em;
   }
 }
 
@@ -242,7 +243,7 @@ header {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 .nosotros p {
   line-height: 30px;
@@ -253,14 +254,14 @@ header {
   border-style: inset;
   border-radius: 25px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  color: white;
-  background-color: #404040;
+  color: #202020;
+  background-color: #f8f9f8;
 }
 .nosotros p:hover {
   box-shadow: 0 0 25px #3a3a3a;
 }
 .nosotros span {
-  background: #ffcd70;
+  background: #fd7333;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -457,8 +458,8 @@ header {
 }
 
 .submit {
-  border: 2px solid #bba9a9;
-  background: linear-gradient(to bottom, transparent, #bba9a9);
+  border: 2px solid #c7c7c7;
+  background: linear-gradient(to bottom, transparent, #c5c5c5);
   border-radius: 5px;
   color: #e6e6e6;
   font-family: inherit;
