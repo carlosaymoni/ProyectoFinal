@@ -17,18 +17,21 @@ body {
   color: #3f3f3f !important;
 }
 
-h1, .title-nosotros {
+h1,
+.title-nosotros {
   text-align: center;
   margin-top: 100px;
   color: rgba(61, 61, 61, 0.699);
   line-height: 3 !important;
   font-weight: 400;
 }
-h1:hover, .title-nosotros:hover {
+h1:hover,
+.title-nosotros:hover {
   color: #ff4646;
 }
 @media only screen and (max-width: 576px) {
-  h1, .title-nosotros {
+  h1,
+.title-nosotros {
     font-size: 1.5em !important;
   }
 }
@@ -564,7 +567,8 @@ textarea::placeholder {
   margin: 5px;
   padding: 0;
 }
-.contact-info b, .contact-info p {
+.contact-info b,
+.contact-info p {
   color: #ffa500;
 }
 @media only screen and (max-width: 576px) {

@@ -90,7 +90,7 @@
         color: white;
         border: 2px solid #555;
     }
-    
+
     @media only screen and (min-width: 577px) and (max-width: 768px) {
         width: 30%;
     }
@@ -98,7 +98,7 @@
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
         width: 30%;
     }
-     
+
 }
 
 input::placeholder {
@@ -128,17 +128,17 @@ textarea::placeholder {
         width: $ancho;
         padding: 5px;
     }
-    
+
     @media only screen and (min-width: 577px) and (max-width: 768px) {
         width: 100%;
         padding: 2px;
-        
+
         h2 {
             display: none;
         }
     }
 
-    
+
 }
 
 .fa-facebook-square:hover {
@@ -178,23 +178,24 @@ textarea::placeholder {
         padding: 0;
     }
 
-    b, p {
+    b,
+    p {
         color: #ffa500;
     }
 
     @media only screen and (max-width: 576px) {
         width: $ancho;
         padding: 20px;
-        
+
         li {
-        line-height: 30px;
+            line-height: 30px;
         }
     }
 
     @media only screen and (min-width: 577px) and (max-width: 768px) {
         width: 100%;
         padding: 10px;
-        
+
         li {
             line-height: 28px;
         }

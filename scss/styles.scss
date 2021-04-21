@@ -2,35 +2,36 @@
 @import "utilities/extend";
 
 * {
-   @extend %reset; 
+    @extend %reset;
 }
 
 body {
     background: #e7eef3;
     font-size: 1.3em;
-    color: $colornav;    
+    color: $colornav;
 }
 
-h1, .title-nosotros {
+h1,
+.title-nosotros {
     text-align: center;
     margin-top: 100px;
     color: rgba(61, 61, 61, 0.699);
     line-height: 3 !important;
-    font-weight: 400; 
+    font-weight: 400;
 
     &:hover {
         color: $colorhover;
     }
 
     @media only screen and (max-width: 576px) {
-         font-size: 1.5em !important;
+        font-size: 1.5em !important;
     }
 }
 
 h2 {
     color: $colorh2;
     padding: 10px;
-    
+
 
     @media only screen and (max-width: 576px) {
         font-size: 22px;
@@ -46,4 +47,3 @@ h2 {
 @import "layout/about us";
 @import "layout/contact";
 @import "layout/footer";
-
