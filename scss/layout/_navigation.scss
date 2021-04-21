@@ -30,8 +30,19 @@ header {
     margin-right: 0 !important;
 }
 
-.navbar-toggler {
-    font-size: 0.75rem !important;
+
+.navbar {
+    
+    .navbar-toggler {
+        font-size: 0.75rem;
+        border: 2px solid transparent;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: rgba(255, 56, 56, 0.795);
+            border-color: rgba(255, 55, 55, 0.582);
+        }
+    } 
 }
 
 

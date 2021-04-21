@@ -76,8 +76,14 @@ header {
   margin-right: 0 !important;
 }
 
-.navbar-toggler {
-  font-size: 0.75rem !important;
+.navbar .navbar-toggler {
+  font-size: 0.75rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+.navbar .navbar-toggler:hover {
+  background-color: rgba(255, 56, 56, 0.795);
+  border-color: rgba(255, 55, 55, 0.582);
 }
 
 @media only screen and (max-width: 576px) {
@@ -143,6 +149,10 @@ header {
     padding-bottom: 10px;
     font-size: 2.5em;
   }
+}
+
+.carousel-indicators .active {
+  background-color: rgba(255, 0, 0, 0.788);
 }
 
 .servicios {
